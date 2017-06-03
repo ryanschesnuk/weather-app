@@ -1,6 +1,5 @@
 const http = require('http');
 const api = require('./api.json');
-//const cityList = require('./city-list.json';)
 
 function printMessage(location, temp) {
   location = location.split(",").join(", ");
